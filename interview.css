@@ -1,0 +1,36 @@
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(178, 176, 176);
+
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.img{
+    
+    align-items: center;
+}
+/*for responsive layout*/
+@media (max-width: 700px) {
+    .main-container {
+        flex: 100%;
+        max-width: 100%;
+    }
+  }
+
+  .next .prev{
+      background-color: rgb(253, 253, 253);
+  }
+
+  .next:hover, .prev:hover{
+      background-color: rgb(186, 182, 182);
+  }
